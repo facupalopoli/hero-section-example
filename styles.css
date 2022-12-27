@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #F3F1EF;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.mitades{
+    display: flex;
+}
+
+.heroL{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 55%;
+    padding-left: 15%;
+    padding-bottom: 100px;
+}
+
+h2{
+    text-transform: uppercase;
+    font-size: 4.4rem;
+}
+
+#london{
+    text-decoration: line-through;
+}
+
+h3{
+    text-transform: uppercase;
+    padding-top: 35px;
+    font-size: 1.7rem;
+}
+
+#star{
+    color: #E94E35;
+}
+
+.botones{
+    display: flex;
+    padding-top: 50px;
+}
+
+button{
+    padding: 16px 40px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border: 3px solid black;
+}
+
+#project{
+    background-color: #171513;
+    color: white;
+}
+
+#talk{
+    background-color: transparent;
+}
+
+.heroR{
+    width: 45%;
+    position: relative;
+}
+
+img{
+    width: 90%;
+}
+
+.rueda{
+    color: #E94E35;
+    font-size: 30rem;
+    position: absolute;
+    z-index: -1;
+    left: 15%;
+    top: -1%;
+}
+
+p{    
+    background-color: #171513;
+    color: #F3F1EF;
+    padding: 40px 0;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    width: 100%;
+    text-align: center;
+
+    -webkit-transform: rotate(-3deg); 
+    -moz-transform: rotate(-3deg); 
+    -ms-transform: rotate(-3deg); 
+    -o-transform: rotate(-3deg); 
+    transform: rotate(-3deg); 
+      
+    -webkit-transform-origin: -20% 5%;
+    -moz-transform-origin: -20% 5%;
+    -ms-transform-origin: -20% 5%;
+    -o-transform-origin: -20% 5%; 
+    transform-origin: -20% 5%; 
+}
+
+#estrella{
+    color: #E94E35;
+    padding: 0 48px;
+}
