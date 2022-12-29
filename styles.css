@@ -103,7 +103,7 @@ ul{
     text-transform: uppercase;
     font-size: 1.5rem;
     justify-content: space-between;
-    width: 99%;
+    width: 99.8%;
     flex-wrap: wrap;
     
     -webkit-transform: rotate(-3deg); 
@@ -134,7 +134,7 @@ ul{
     }
 
     h3{
-        font-size: 1rem;
+        font-size: 1.3rem;
         padding-top: 20px;
     }
 
@@ -171,7 +171,7 @@ ul{
     ul{
         width: 100%;
         padding: 20px 0;
-        justify-content: center;
+        justify-content: space-evenly;
         -webkit-transform: none; 
         -moz-transform: none; 
         -ms-transform: none; 
@@ -189,5 +189,18 @@ ul{
 @media(max-width: 480px){
     h2{
         font-size: 2rem;
+    }
+
+    h3{
+        font-size: 1rem;
+    }
+
+
+    ul{
+        padding: 10px 0;
+    }
+
+    .botones{
+        margin-bottom: 10px;
     }
 }
