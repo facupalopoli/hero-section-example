@@ -125,7 +125,6 @@ ul{
 
 @media(max-width: 1400px){
     ul{
-        justify-content: ;
         padding: 30px 0;
         font-size: 1rem;
     }
