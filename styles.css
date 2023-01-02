@@ -8,6 +8,54 @@ body{
     font-family: 'Bai Jamjuree', sans-serif;
 }
 
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10vw;
+    margin-bottom: 20px;
+}
+
+.logo span{
+    font-size: 3.5rem;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 2rem;
+}
+
+nav{
+    display: flex;
+    gap: 3vw
+}
+
+nav > a{
+    text-decoration: none;
+    color: #171513;
+}
+
+header button{
+    padding: 14px 30px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 700;
+    border: 1px solid black;
+    background-color: transparent;
+    transition: background 0.45s ease;
+}
+
+header button:hover{
+    background-color: #E94E35;
+}
+
+.hamb, .hamblink{
+    display: none;
+    color: black;
+}
+
 .hero{
     display: flex;
     flex-direction: column;
@@ -34,7 +82,7 @@ h2{
     text-decoration: line-through;
 }
 
-h3{
+.heroL > h3{
     text-transform: uppercase;
     padding-top: 35px;
     font-size: 1.7rem;
@@ -49,7 +97,7 @@ h3{
     padding-top: 50px;
 }
 
-button{
+.botones button{
     padding: 16px 40px;
     cursor: pointer;
     font-size: 1.1rem;
@@ -125,7 +173,7 @@ ul{
         font-size: 3rem;
     }
 
-    h3{
+    .heroL > h3{
         font-size: 1.3rem;
         padding-top: 20px;
     }
@@ -147,6 +195,19 @@ ul{
 }
 
 @media(max-width: 1040px){
+    header{
+        margin-bottom: 0px;
+    }
+
+    nav{
+        display: none;
+    }
+    
+    .hamb, .hamblink{
+        display: block;
+    }
+    
+    
     .heroR{
         display: none;
     }
@@ -179,14 +240,31 @@ ul{
 }
 
 @media(max-width: 480px){
+    header{
+        padding-top: 5px;
+    }
+
+    .logo span{
+        font-size: 2rem;
+    }
+    
+    .logo{
+        font-size: 1rem;
+    }
+
+    header button{
+        padding: 10px 20px;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
     h2{
         font-size: 2rem;
     }
 
-    h3{
+    .heroL h3{
         font-size: 1rem;
     }
-
 
     ul{
         padding: 10px 0;
