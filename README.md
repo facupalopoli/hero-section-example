@@ -1,2 +1,2 @@
-# Hero Section https://facupalopoli.github.io/hero-section-example/
+# Hero Section
 Study homework.
