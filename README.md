@@ -1,2 +1,2 @@
-# ejerciciohtmlcssclase13
-haciendo una seccion hero
+# Hero Section
+Study homework
